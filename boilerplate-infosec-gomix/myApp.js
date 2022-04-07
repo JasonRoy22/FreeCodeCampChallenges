@@ -59,7 +59,6 @@ bcrypt.compare(myPlaintextPassword, hash, (err, res) => {
 let hash = bcrypt.hashSync(myPlaintextPassword, saltRounds)
 let result = bcrypt.compareSync(myPlaintextPassword, hash)
 console.log(result)
-//What code editor and extension does the instructor recommend for developing penetration testing tools in Python?
 
 
 
